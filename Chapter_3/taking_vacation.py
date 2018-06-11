@@ -1,6 +1,7 @@
-def hotel_cost(nights):
-    nights = raw_input("How many nights are you staying?: ")
-    return 140 * nights
+def hotel_cost():
+  nights = raw_input("How many nights are you staying?: ")
+  print (140 * int(nights))
+  return hotel_cost()
 
 
 def plane_ride_cost(city):
@@ -14,4 +15,5 @@ def plane_ride_cost(city):
     elif city == "Los Angeles":
         return 475
     else:
-        return "That is not a valid city"
+        return "That city is not a valid city"
+    return plane_ride_cost()
