@@ -17,3 +17,13 @@ def plane_ride_cost(city):
     else:
         return "That city is not a valid city"
     return plane_ride_cost()
+
+
+def rental_car_cost(days):
+    cost = 40 * days
+    if days >= 7:
+        cost -= 50
+    elif cost >= 3:
+        cost -= 20
+        return cost
+
