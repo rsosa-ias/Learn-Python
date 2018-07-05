@@ -16,8 +16,10 @@ for i in prices:
     print "price: %s" % prices[i]
     print "stock: %s" % stock[i]
 
-for k in prices:
-    total = 0
-    total = prices[k] * stock[k]
-print "total is {}".format(total)
+total = 0
+total_final = 0
+for key,value in zip(prices):
+    total = value * stock[key]
+    total_final = total + total_final
+print total
 
