@@ -22,3 +22,4 @@ for key in prices:
     total += value
 print "total is {}".format(total)
 
+Hello
