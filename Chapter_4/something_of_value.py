@@ -25,3 +25,4 @@ print "total is {}".format(total)
 Hello
 Jellow
 hielo
+hi
