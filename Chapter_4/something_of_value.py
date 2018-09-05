@@ -24,3 +24,4 @@ print "total is {}".format(total)
 
 runs good
 okok
+nice
